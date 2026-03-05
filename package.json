@@ -1,0 +1,16 @@
+{
+  "name": "universal-copy-review",
+  "version": "1.0.0",
+  "description": "Generate copy review tools from any HTML page",
+  "main": "cli.js",
+  "bin": {
+    "copy-review": "./cli.js"
+  },
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "node cli.js ./test-page.html -o test-output.html"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.0"
+  }
+}

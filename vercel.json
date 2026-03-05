@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/fetch", "destination": "/api/fetch.js" }
+  ]
+}
